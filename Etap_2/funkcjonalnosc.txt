@@ -1,0 +1,16 @@
+Administrator 
+- dodawanie bibliotekarzy
+- usuwanie bibliotekarzy 
+
+Bibliotekarz
+- dodawanie/usuwanie/przeglądanie czytelników
+- dodawanie/usuwanie/przeglądanie książek
+- wydawanie książek czytelnikom
+- przeglądanie wydanych książek
+- rejestrowanie zwrotów czytelników 
+- przeglądanie zwróconych książek 
+
+Czytelnik
+- przeglądanie dostępnych książek
+- przeglądanie wypożyczonych książek 
+- przeglądanie zwróconych książek 
