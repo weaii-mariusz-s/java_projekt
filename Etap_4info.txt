@@ -1,1 +1,0 @@
-zaprojektowanie protokołu służącego do komunikacji pomiędzy serwerem a klientami  (opis sposobu w jaki będzie wyglądała wymiana informacji pomiędzy nimi)
