@@ -1,196 +1,176 @@
-INSERT ALL
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (1, 'Nauki ekonomiczne', NULL)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (2, 'Nauki humanistyczne', NULL)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (3, 'Nauki matematyczno-przyrodnicze', NULL)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (4, 'Nauki społeczne', NULL)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (5, 'Informatyka', NULL)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (6, 'Literatura piękna', NULL)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (7, 'Medycyna', NULL)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (8, 'Prawo', NULL)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (9, 'Albumy, atlasy', NULL)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (10, 'Literatura dla dzieci i młodzieży', NULL)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (11, 'Literatura popularnonaukowa', NULL)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (12, 'Poradniki', NULL)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (13, 'Przewodniki', NULL)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (14, 'Sport', NULL)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (15, 'Inne', NULL)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (16, 'Finanse i bankowość', 1)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (17, 'Usługi', 1)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (18, 'Publikacje Obcojęzyczne', 1)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (19, 'Filologia polska', 2)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (20, 'Historia', 2)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (21, 'Publikacje Obcojęzyczne', 2)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (22, 'Biologia', 3)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (23, 'Chemia', 3)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (24, 'Fizyka', 3)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (25, 'Matematyka', 3)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (26, 'Publikacje Obcojęzyczne', 3)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (27, 'Filozofia', 4)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (28, 'Pedagogika', 4)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (29, 'Publikacje Obcojęzyczne', 4)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (30, 'Publikacje Obcojęzyczne', 4)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (31, 'Algorytmika', 5)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (32, 'Bazy danych', 5)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (33, 'Publikacje Obcojęzyczne', 5)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (34, 'Fantastyka', 6)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (35, 'Kryminał, sensacja, thriller', 6)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (36, 'Publikacje Obcojęzyczne', 6)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (37, 'Chirurgia', 7)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (38, 'Farmakologia', 7)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (39, 'Anatomia', 7)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (40, 'Publikacje Obcojęzyczne', 7)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (41, 'Prawo karne', 8)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (42, 'Prawo cywilne', 8)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (43, 'Publikacje Obcojęzyczne', 8)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (44, 'Literatura dla dzieci i młodzieży', 15)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (45, 'Różne', 15)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (46, 'Publikacje Obcojęzyczne', 15)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (47, 'Gramatyka języka polskiego', 19)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (48, 'Historia literatury', 19)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (49, 'Literatura polska', 19)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (50, 'Archeologia', 20)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (51, 'Historia Europy', 20)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (52, 'Historia Polski', 20)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (53, 'Starożytność', 20)
-INTO KATEGORIA(kategoria_id, nazwa_kategorii, rodzic_id) VALUES (54, 'Średniowiecze', 20)
-SELECT 1 FROM DUAL;
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Nauki ekonomiczne', NULL);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Nauki humanistyczne', NULL);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Nauki matematyczno-przyrodnicze', NULL);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Nauki społeczne', NULL);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Informatyka', NULL);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Literatura piękna', NULL);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Medycyna', NULL);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Prawo', NULL);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Albumy, atlasy', NULL);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Literatura dla dzieci i młodzieży', NULL);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Literatura popularnonaukowa', NULL);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Poradniki', NULL);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Przewodniki', NULL);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Sport', NULL);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Inne', NULL);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Finanse i bankowość', 1);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Usługi', 1);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Publikacje Obcojęzyczne', 1);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Filologia polska', 2);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Historia', 2);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Publikacje Obcojęzyczne', 2);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Biologia', 3);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Chemia', 3);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Fizyka', 3);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Matematyka', 3);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Publikacje Obcojęzyczne', 3);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Filozofia', 4);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Pedagogika', 4);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Publikacje Obcojęzyczne', 4);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Publikacje Obcojęzyczne', 4);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Algorytmika', 5);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Bazy danych', 5);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Publikacje Obcojęzyczne', 5);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Fantastyka', 6);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Kryminał, sensacja, thriller', 6);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Publikacje Obcojęzyczne', 6);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Chirurgia', 7);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Farmakologia', 7);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Anatomia', 7);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Publikacje Obcojęzyczne', 7);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Prawo karne', 8);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Prawo cywilne', 8);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Publikacje Obcojęzyczne', 8);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Literatura dla dzieci i młodzieży', 15);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Różne', 15);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Publikacje Obcojęzyczne', 15);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Gramatyka języka polskiego', 19);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Historia literatury', 19);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Literatura polska', 19);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Archeologia', 20);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Historia Europy', 20);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Historia Polski', 20);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Starożytność', 20);
+INSERT INTO KATEGORIA(nazwa_kategorii, rodzic_id) VALUES ('Średniowiecze', 20);
 
-INSERT ALL
-INTO WYDAWNICTWO(wydawnictwo_id, nazwa_wydawnictwa, miasto) VALUES (1, 'Wiedza i Praktyka', 'Warszawa')
-INTO WYDAWNICTWO(wydawnictwo_id, nazwa_wydawnictwa, miasto) VALUES (2, 'Wydawnictwo Uniwersytetu Ekonomicznego w Krakowie', 'Kraków')
-INTO WYDAWNICTWO(wydawnictwo_id, nazwa_wydawnictwa, miasto) VALUES (3, 'Uniwersytet Ekonomiczny w Poznaniu', 'Poznań')
-INTO WYDAWNICTWO(wydawnictwo_id, nazwa_wydawnictwa, miasto) VALUES (4, 'Wydawnictwo Naukowe PWN', 'Warszawa')
-INTO WYDAWNICTWO(wydawnictwo_id, nazwa_wydawnictwa, miasto) VALUES (5, 'Uniwersytet Jana Kochanowskiego', 'Kielce')
-INTO WYDAWNICTWO(wydawnictwo_id, nazwa_wydawnictwa, miasto) VALUES (6, 'Literatura', 'Łódź')
-INTO WYDAWNICTWO(wydawnictwo_id, nazwa_wydawnictwa, miasto) VALUES (7, 'Biblioteka Akustyczna', 'Warszawa')
-INTO WYDAWNICTWO(wydawnictwo_id, nazwa_wydawnictwa, miasto) VALUES (8, 'Wydawnictwo BOSZ', 'Lesko')
-INTO WYDAWNICTWO(wydawnictwo_id, nazwa_wydawnictwa, miasto) VALUES (9, 'Agora', 'Warszawa')
-INTO WYDAWNICTWO(wydawnictwo_id, nazwa_wydawnictwa, miasto) VALUES (10, 'Smak Słowa', 'Sopot')
-INTO WYDAWNICTWO(wydawnictwo_id, nazwa_wydawnictwa, miasto) VALUES (11, 'Wydawnictwo Akademickie Dialog', 'Warszawa')
-INTO WYDAWNICTWO(wydawnictwo_id, nazwa_wydawnictwa, miasto) VALUES (12, 'Armoryka', 'Sandomierz')
-INTO WYDAWNICTWO(wydawnictwo_id, nazwa_wydawnictwa, miasto) VALUES (13, 'Imprint sp. z o.o.', 'Warszawa')
-INTO WYDAWNICTWO(wydawnictwo_id, nazwa_wydawnictwa, miasto) VALUES (14, 'Wydawnictwo Uniwersytetu Łódzkiego', 'Łódź')
-INTO WYDAWNICTWO(wydawnictwo_id, nazwa_wydawnictwa, miasto) VALUES (15, 'Wydawnictwo Naukowe Uniwersytetu Mikołaja Kopernika', 'Toruń')
-INTO WYDAWNICTWO(wydawnictwo_id, nazwa_wydawnictwa, miasto) VALUES (16, 'Wydawnictwa AGH', 'Kraków')
-INTO WYDAWNICTWO(wydawnictwo_id, nazwa_wydawnictwa, miasto) VALUES (17, 'Oficyna Wydawnicza Politechniki Warszawskiej', 'Warszawa')
-INTO WYDAWNICTWO(wydawnictwo_id, nazwa_wydawnictwa, miasto) VALUES (18, 'Akademia Marynarki Wojennej', 'Gdynia')
-INTO WYDAWNICTWO(wydawnictwo_id, nazwa_wydawnictwa, miasto) VALUES (19, 'Wydawnictwo Naukowe Uniwersytetu im. Adama Mickiewicza', 'Poznań')
-INTO WYDAWNICTWO(wydawnictwo_id, nazwa_wydawnictwa, miasto) VALUES (20, 'Universitas', 'Kraków')
-SELECT 1 FROM DUAL;
+INSERT INTO WYDAWNICTWO(nazwa_wydawnictwa, miasto) VALUES ('Wiedza i Praktyka', 'Warszawa');
+INSERT INTO WYDAWNICTWO(nazwa_wydawnictwa, miasto) VALUES ('Wydawnictwo Uniwersytetu Ekonomicznego w Krakowie', 'Kraków');
+INSERT INTO WYDAWNICTWO(nazwa_wydawnictwa, miasto) VALUES ('Uniwersytet Ekonomiczny w Poznaniu', 'Poznań');
+INSERT INTO WYDAWNICTWO(nazwa_wydawnictwa, miasto) VALUES ('Wydawnictwo Naukowe PWN', 'Warszawa');
+INSERT INTO WYDAWNICTWO(nazwa_wydawnictwa, miasto) VALUES ('Uniwersytet Jana Kochanowskiego', 'Kielce');
+INSERT INTO WYDAWNICTWO(nazwa_wydawnictwa, miasto) VALUES ('Literatura', 'Łódź');
+INSERT INTO WYDAWNICTWO(nazwa_wydawnictwa, miasto) VALUES ('Biblioteka Akustyczna', 'Warszawa');
+INSERT INTO WYDAWNICTWO(nazwa_wydawnictwa, miasto) VALUES ('Wydawnictwo BOSZ', 'Lesko');
+INSERT INTO WYDAWNICTWO(nazwa_wydawnictwa, miasto) VALUES ('Agora', 'Warszawa');
+INSERT INTO WYDAWNICTWO(nazwa_wydawnictwa, miasto) VALUES ('Smak Słowa', 'Sopot');
+INSERT INTO WYDAWNICTWO(nazwa_wydawnictwa, miasto) VALUES ('Wydawnictwo Akademickie Dialog', 'Warszawa');
+INSERT INTO WYDAWNICTWO(nazwa_wydawnictwa, miasto) VALUES ('Armoryka', 'Sandomierz');
+INSERT INTO WYDAWNICTWO(nazwa_wydawnictwa, miasto) VALUES ('Imprint sp. z o.o.', 'Warszawa');
+INSERT INTO WYDAWNICTWO(nazwa_wydawnictwa, miasto) VALUES ('Wydawnictwo Uniwersytetu Łódzkiego', 'Łódź');
+INSERT INTO WYDAWNICTWO(nazwa_wydawnictwa, miasto) VALUES ('Wydawnictwo Naukowe Uniwersytetu Mikołaja Kopernika', 'Toruń');
+INSERT INTO WYDAWNICTWO(nazwa_wydawnictwa, miasto) VALUES ('Wydawnictwa AGH', 'Kraków');
+INSERT INTO WYDAWNICTWO(nazwa_wydawnictwa, miasto) VALUES ('Oficyna Wydawnicza Politechniki Warszawskiej', 'Warszawa');
+INSERT INTO WYDAWNICTWO(nazwa_wydawnictwa, miasto) VALUES ('Akademia Marynarki Wojennej', 'Gdynia');
+INSERT INTO WYDAWNICTWO(nazwa_wydawnictwa, miasto) VALUES ('Wydawnictwo Naukowe Uniwersytetu im. Adama Mickiewicza', 'Poznań');
+INSERT INTO WYDAWNICTWO(nazwa_wydawnictwa, miasto) VALUES ('Universitas', 'Kraków');
 
-INSERT ALL
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (1, 'Sprawozdawczość budżetowa 2022', 16, 1, 2022, 10)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (2, 'Modele świadczenia usług w handlu międzynarodowym', 17, 2, 2021, 4)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (3, 'Vademecum usług bankowych', 17, 3, 2021, 12)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (4, 'Podstawy ubezpieczeń majątkowych', 16, 4, 2022, 10)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (5, 'Marketing mix of food industry enterprises', 18, 5, 2020, 2)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (6, 'Uciekinierzy', 44, 6, 2017, 5)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (7, 'Kocie historie', 44, 7, 2008, 9)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (8, 'Strach się bać', 19, 8, 2022, 11)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (9, 'Mówi się. Porady językowe profesora Bralczyka', 19, 4, 2020, 6)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (10, 'Na drugie Stanisław. Nowa księga imion', 11, 9, 2015, 3)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (11, 'Biała mapa', 19, 10, 2022, 14)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (12, 'Chiński feniks', 20, 11, 2022, 18)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (13, 'Dzieje wypraw krzyżowych', 20, 12, 2022, 11)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (14, 'Cezarom oddaj', 6, 13, 2012, 4)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (15, 'Polska. Eseje o stuleciu', 20, 8, 2022, 19)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (16, 'Entre la tradición y la novedad', 20, 14, 2020, 4)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (17, 'Krótki kurs. Zachowanie zwierząt', 22, 4, 2022, 21)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (18, 'Metody analityczne w ocenie jakości wody', 22, 15, 2021, 5)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (19, 'Chemia leków i proleków', 23, 4, 2022, 13)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (20, 'Badania nanomateriałów z wykorzystaniem mikroskopii elektronowej', 23, 15, 2022, 7)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (21, 'Wybrane Rozdziały Matematycznych Metod Fizyki', 24, 16, 2021, 3)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (22, 'Fizyka kwantowa w pigułce', 24, 4, 2022, 9)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (23, 'Teoria liczb z programem Mathematica', 25, 4, 2022, 12)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (24, 'Matematyka. 30 wykładów z ćwiczeniami', 25, 17, 2022, 21)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (25, 'Voyage planning', 26, 18, 2020, 2)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (26, 'Tradycja i tradycjonalizm w dyskursie kulturowym', 27, 19, 2021, 5)
-INTO KSIAZKA(ksiazka_id, tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES (27, 'Wiedza jako opowieść', 27, 20, 2022, 2)
-SELECT 1 FROM DUAL;
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Sprawozdawczość budżetowa 2022', 16, 1, 2022, 10);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Modele świadczenia usług w handlu międzynarodowym', 17, 2, 2021, 4);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Vademecum usług bankowych', 17, 3, 2021, 12);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Podstawy ubezpieczeń majątkowych', 16, 4, 2022, 10);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Marketing mix of food industry enterprises', 18, 5, 2020, 2);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Uciekinierzy', 44, 6, 2017, 5);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Kocie historie', 44, 7, 2008, 9);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Strach się bać', 19, 8, 2022, 11);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Mówi się. Porady językowe profesora Bralczyka', 19, 4, 2020, 6);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Na drugie Stanisław. Nowa księga imion', 11, 9, 2015, 3);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Biała mapa', 19, 10, 2022, 14);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Chiński feniks', 20, 11, 2022, 18);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Dzieje wypraw krzyżowych', 20, 12, 2022, 11);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Cezarom oddaj', 6, 13, 2012, 4);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Polska. Eseje o stuleciu', 20, 8, 2022, 19);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Entre la tradición y la novedad', 20, 14, 2020, 4);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Krótki kurs. Zachowanie zwierząt', 22, 4, 2022, 21);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Metody analityczne w ocenie jakości wody', 22, 15, 2021, 5);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Chemia leków i proleków', 23, 4, 2022, 13);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Badania nanomateriałów z wykorzystaniem mikroskopii elektronowej', 23, 15, 2022, 7);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Wybrane Rozdziały Matematycznych Metod Fizyki', 24, 16, 2021, 3);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Fizyka kwantowa w pigułce', 24, 4, 2022, 9);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Teoria liczb z programem Mathematica', 25, 4, 2022, 12);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Matematyka. 30 wykładów z ćwiczeniami', 25, 17, 2022, 21);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Voyage planning', 26, 18, 2020, 2);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Tradycja i tradycjonalizm w dyskursie kulturowym', 27, 19, 2021, 5);
+INSERT INTO KSIAZKA(tytul, kategoria_id, wydawnictwo_id, rok_wydania, liczba_sztuk) VALUES ('Wiedza jako opowieść', 27, 20, 2022, 2);
 
-INSERT ALL
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (1, 'Barbara', 'Jarosz', 'Warszawa', 'Polska', to_date('16.02.1977', 'DD.MM.YYYY'), NULL)
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (2, 'Elżbieta', 'Bombińska', 'Kraków', 'Polska', to_date('01.08.1973', 'DD.MM.YYYY'), NULL)
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (3, 'Anna', 'Iwańczuk-Kaliska', 'Poznań', 'Polska', to_date('11.02.1983', 'DD.MM.YYYY'), NULL)
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (4, 'Paweł', 'Marszałek', 'Poznań', 'Polska', to_date('03.06.1986', 'DD.MM.YYYY'), NULL)
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (5, 'Lesław', 'Gajek', 'Łódź', 'Polska', to_date('23.04.1956', 'DD.MM.YYYY'), NULL)
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (6, 'Tomasz', 'Trojanowski', 'Warszawa', 'Polska', to_date('03/11/1965', 'DD.MM.YYYY'), NULL)
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (7, 'Jerzy', 'Bralczyk', 'Ciechanów', 'Polska', to_date('17.08.1947', 'DD.MM.YYYY'), NULL)
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (8, 'Michał', 'Ogórek', 'Katowice', 'Polska', to_date('17.08.1955', 'DD.MM.YYYY'), NULL)
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (9, 'Cecilie', 'Enger', 'Oslo', 'Norwegia', to_date('22.01.1963', 'DD.MM.YYYY'), NULL)
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (10, 'Bogdan', 'Góralczyk', 'Siedlce', 'Polska', to_date('01.09.1954', 'DD.MM.YYYY'), NULL)
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (11, 'Antoni', 'Lange', 'Warszawa', 'Polska', to_date('19.03.1862', 'DD.MM.YYYY'), to_date('11.08.1929', 'DD.MM.YYYY'))
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (12, 'Michał', 'Kleiber', 'Warszawa', 'Polska', to_date('29.01.1946', 'DD.MM.YYYY'), NULL)
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (13, 'Aman', 'Rosales Rodriguez', 'Almería', 'Hiszpania', to_date('09.05.1958', 'DD.MM.YYYY'), NULL)
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (14, 'Tristram', 'Wyatt', 'Londyn', 'Wielka Brytania', to_date('15.04.1956', 'DD.MM.YYYY'), NULL)
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (15, 'Anna', 'Gacek', 'Bytom', 'Polska', to_date('22.08.1981', 'DD.MM.YYYY'), NULL)
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (16, 'Ilona', 'Wandzik', 'Katowice', 'Polska', to_date('05.01.1974', 'DD.MM.YYYY'), NULL)
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (17, 'Grzegorz', 'Trykowski', 'Toruń', 'Polska', to_date('02.07.1981', 'DD.MM.YYYY'), NULL)
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (18, 'Andrzej', 'Lenda', 'Kraków', 'Polska', to_date('07.11.1943', 'DD.MM.YYYY'), to_date('26.04.2017', 'DD.MM.YYYY'))
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (19, 'Sten', 'Odenwald', 'Karlskoga', 'Szwecja', to_date('14.02.1952', 'DD.MM.YYYY'), NULL)
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (20, 'Piotr', 'Zarzycki', 'Warszawa', 'Polska', to_date('23.08.1956', 'DD.MM.YYYY'), NULL)
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (21, 'Jan', 'Nawrocki', 'Warszawa', 'Polska', to_date('05.12.1964', 'DD.MM.YYYY'), NULL)
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (22, 'Czesław', 'Dyrcz', 'Przemyśl', 'Polska', to_date('05.12.1955', 'DD.MM.YYYY'), NULL)
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (23, 'Marek', 'Jedliński', 'Poznań', 'Polska', to_date('09.04.1981', 'DD.MM.YYYY'), NULL)
-INTO AUTOR(autor_id, imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES (24, 'Rafał', 'Maciąg', 'Kraków', 'Polska', to_date('01.08.1955', 'DD.MM.YYYY'), NULL)
-SELECT 1 FROM DUAL;
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Barbara', 'Jarosz', 'Warszawa', 'Polska', to_date('16.02.1977', 'DD.MM.YYYY'), NULL);
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Elżbieta', 'Bombińska', 'Kraków', 'Polska', to_date('01.08.1973', 'DD.MM.YYYY'), NULL);
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Anna', 'Iwańczuk-Kaliska', 'Poznań', 'Polska', to_date('11.02.1983', 'DD.MM.YYYY'), NULL);
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Paweł', 'Marszałek', 'Poznań', 'Polska', to_date('03.06.1986', 'DD.MM.YYYY'), NULL);
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Lesław', 'Gajek', 'Łódź', 'Polska', to_date('23.04.1956', 'DD.MM.YYYY'), NULL);
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Tomasz', 'Trojanowski', 'Warszawa', 'Polska', to_date('03/11/1965', 'DD.MM.YYYY'), NULL);
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Jerzy', 'Bralczyk', 'Ciechanów', 'Polska', to_date('17.08.1947', 'DD.MM.YYYY'), NULL);
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Michał', 'Ogórek', 'Katowice', 'Polska', to_date('17.08.1955', 'DD.MM.YYYY'), NULL);
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Cecilie', 'Enger', 'Oslo', 'Norwegia', to_date('22.01.1963', 'DD.MM.YYYY'), NULL);
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Bogdan', 'Góralczyk', 'Siedlce', 'Polska', to_date('01.09.1954', 'DD.MM.YYYY'), NULL);
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Antoni', 'Lange', 'Warszawa', 'Polska', to_date('19.03.1862', 'DD.MM.YYYY'), to_date('11.08.1929', 'DD.MM.YYYY'));
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Michał', 'Kleiber', 'Warszawa', 'Polska', to_date('29.01.1946', 'DD.MM.YYYY'), NULL);
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Aman', 'Rosales Rodriguez', 'Almería', 'Hiszpania', to_date('09.05.1958', 'DD.MM.YYYY'), NULL);
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Tristram', 'Wyatt', 'Londyn', 'Wielka Brytania', to_date('15.04.1956', 'DD.MM.YYYY'), NULL);
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Anna', 'Gacek', 'Bytom', 'Polska', to_date('22.08.1981', 'DD.MM.YYYY'), NULL);
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Ilona', 'Wandzik', 'Katowice', 'Polska', to_date('05.01.1974', 'DD.MM.YYYY'), NULL);
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Grzegorz', 'Trykowski', 'Toruń', 'Polska', to_date('02.07.1981', 'DD.MM.YYYY'), NULL);
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Andrzej', 'Lenda', 'Kraków', 'Polska', to_date('07.11.1943', 'DD.MM.YYYY'), to_date('26.04.2017', 'DD.MM.YYYY'));
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Sten', 'Odenwald', 'Karlskoga', 'Szwecja', to_date('14.02.1952', 'DD.MM.YYYY'), NULL);
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Piotr', 'Zarzycki', 'Warszawa', 'Polska', to_date('23.08.1956', 'DD.MM.YYYY'), NULL);
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Jan', 'Nawrocki', 'Warszawa', 'Polska', to_date('05.12.1964', 'DD.MM.YYYY'), NULL);
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Czesław', 'Dyrcz', 'Przemyśl', 'Polska', to_date('05.12.1955', 'DD.MM.YYYY'), NULL);
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Marek', 'Jedliński', 'Poznań', 'Polska', to_date('09.04.1981', 'DD.MM.YYYY'), NULL);
+INSERT INTO AUTOR(imie, nazwisko, miasto, kraj, data_urodzenia, data_smierci) VALUES ('Rafał', 'Maciąg', 'Kraków', 'Polska', to_date('01.08.1955', 'DD.MM.YYYY'), NULL);
 
-INSERT ALL
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (1, 1)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (2, 2)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (3, 3)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (4, 3)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (5, 4)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (6, 5)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (6, 6)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (6, 7)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (7, 8)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (7, 9)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (7, 10)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (8, 10)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (9, 11)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (10, 12)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (11, 13)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (11, 14)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (12, 15)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (13, 16)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (14, 17)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (15, 18)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (16, 19)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (17, 20)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (18, 21)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (19, 22)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (20, 23)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (21, 24)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (22, 25)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (23, 26)
-INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (24, 27)
-SELECT 1 FROM DUAL;
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (1, 1);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (2, 2);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (3, 3);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (4, 3);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (5, 4);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (6, 5);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (6, 6);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (6, 7);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (7, 8);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (7, 9);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (7, 10);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (8, 10);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (9, 11);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (10, 12);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (11, 13);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (11, 14);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (12, 15);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (13, 16);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (14, 17);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (15, 18);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (16, 19);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (17, 20);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (18, 21);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (19, 22);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (20, 23);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (21, 24);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (22, 25);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (23, 26);
+INSERT INTO AUTOR_KSIAZKA(autor_id, ksiazka_id) VALUES (24, 27);
 
+INSERT INTO OSOBA(imie, nazwisko, data_urodzenia, plec, telefon, email, haslo) VALUES ('Anna', 'Nowak', to_date('01.09.1983', 'DD.MM.YYYY'), 'kobieta', '+48859559675', 'anowak@wp.pl', 'haslo123');
+INSERT INTO OSOBA(imie, nazwisko, data_urodzenia, plec, telefon, email, haslo) VALUES ('Maciej', 'Kowalski', to_date('20.01.1991', 'DD.MM.YYYY'), 'mężczyzna', '+48607866795', 'maciejk@gmail.com', 'haslo123');
+INSERT INTO OSOBA(imie, nazwisko, data_urodzenia, plec, telefon, email, haslo) VALUES ('Grzegorz', 'Zieliński', to_date('12.04.1988', 'DD.MM.YYYY'), 'mężczyzna', '+48655058372', 'grzegorz123@gmail.com', 'haslo123');
+INSERT INTO OSOBA(imie, nazwisko, data_urodzenia, plec, telefon, email, haslo) VALUES ('Kamil', 'Szymański', to_date('03.07.1993', 'DD.MM.YYYY'), 'mężczyzna', '+48944981148', 'kszym@wp.pl', 'haslo123');
+INSERT INTO OSOBA(imie, nazwisko, data_urodzenia, plec, telefon, email, haslo) VALUES ('Magdalena', 'Jankowska', to_date('21.02.1984', 'DD.MM.YYYY'), 'kobieta', '+48899521865', 'magda009@gmail.com', 'haslo123');
+INSERT INTO OSOBA(imie, nazwisko, data_urodzenia, plec, telefon, email, haslo) VALUES ('Wiktoria', 'Nowicka', to_date('29.11.1994', 'DD.MM.YYYY'), 'kobieta', '+48344334783', 'wiktorian@gmail.com', 'haslo123');
+INSERT INTO OSOBA(imie, nazwisko, data_urodzenia, plec, telefon, email, haslo) VALUES ('Piotr', 'Zawadzki', to_date('01.09.2007', 'DD.MM.YYYY'), 'mężczyzna', '+48720628132', 'zawadzki07@wp.pl', 'haslo123');
 
-INSERT ALL
-INTO OSOBA(osoba_id, imie, nazwisko, telefon, email, haslo) VALUES (1, 'Anna', 'Nowak', '+48859559675', 'anowak@wp.pl', 'haslo123')
-INTO OSOBA(osoba_id, imie, nazwisko, telefon, email, haslo) VALUES (2, 'Maciej', 'Kowalski', '+48607866795', 'maciejk@gmail.com', 'haslo123')
-INTO OSOBA(osoba_id, imie, nazwisko, telefon, email, haslo) VALUES (3, 'Grzegorz', 'Zieliński', '+48655058372', 'grzegorz123@gmail.com', 'haslo123')
-INTO OSOBA(osoba_id, imie, nazwisko, telefon, email, haslo) VALUES (4, 'Kamil', 'Szymański', '+48944981148', 'kszym@wp.pl', 'haslo123')
-INTO OSOBA(osoba_id, imie, nazwisko, telefon, email, haslo) VALUES (5, 'Magdalena', 'Jankowska', '+48899521865', 'magda009@gmail.com', 'haslo123')
-INTO OSOBA(osoba_id, imie, nazwisko, telefon, email, haslo) VALUES (6, 'Wiktoria', 'Nowicka', '+48344334783', 'wiktorian@gmail.com', 'haslo123')
-INTO OSOBA(osoba_id, imie, nazwisko, telefon, email, haslo) VALUES (7, 'Piotr', 'Zawadzki', '+48720628132', 'zawadzki07@wp.pl', 'haslo123')
-SELECT 1 FROM DUAL;
+INSERT INTO CZYTELNIK(czytelnik_id, osoba_id) VALUES (2, 5);
+INSERT INTO CZYTELNIK(czytelnik_id, osoba_id) VALUES (3, 6);
+INSERT INTO CZYTELNIK(czytelnik_id, osoba_id) VALUES (4, 7);
 
-INSERT ALL
-INTO CZYTELNIK(czytelnik_id, osoba_id, data_urodzenia) VALUES (1, 4, to_date('03.07.1993', 'DD.MM.YYYY'))
-INTO CZYTELNIK(czytelnik_id, osoba_id, data_urodzenia) VALUES (2, 5, to_date('21.02.1984', 'DD.MM.YYYY'))
-INTO CZYTELNIK(czytelnik_id, osoba_id, data_urodzenia) VALUES (3, 6, to_date('14.05.1963', 'DD.MM.YYYY'))
-INTO CZYTELNIK(czytelnik_id, osoba_id, data_urodzenia) VALUES (4, 7, to_date('01.09.2007', 'DD.MM.YYYY'))
-SELECT 1 FROM DUAL;
+INSERT INTO BIBLIOTEKARZ(bibliotekarz_id, osoba_id) VALUES (1, 1);
+INSERT INTO BIBLIOTEKARZ(bibliotekarz_id, osoba_id) VALUES (2, 3);
+INSERT INTO BIBLIOTEKARZ(bibliotekarz_id, osoba_id) VALUES (3, 4);
 
-INSERT ALL
-INTO BIBLIOTEKARZ(bibliotekarz_id, osoba_id) VALUES (1, 1)
-INTO BIBLIOTEKARZ(bibliotekarz_id, osoba_id) VALUES (2, 3)
-INTO BIBLIOTEKARZ(bibliotekarz_id, osoba_id) VALUES (3, 4)
-SELECT 1 FROM DUAL;
-
-INSERT ALL
-INTO ADMINISTRATOR(administrator_id, osoba_id) VALUES (1, 2)
-SELECT 1 FROM DUAL;
+INSERT INTO ADMINISTRATOR(administrator_id, osoba_id) VALUES (1, 2);
